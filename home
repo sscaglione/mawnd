@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link type="text/css" rel="stylesheet" href="main">
+	</head>
+	<body>
+
+		<main>
+		<!-- asideList from open source https://codepen.io/tonkec/pen/Ogzpqz -->
+		  <aside>
+		    <ul class="asideList">
+		      <li><a href="home" class="asideAnchor">Home</a></li>
+		      <li><a href="wwd.html" class="asideAnchor">What We Do</a></li>
+		      <li><a href="about.html" class="asideAnchor">About</a></li>
+		      <li><a href="contact.html" class="asideAnchor">Contact</a></li>
+		    </ul>
+		  </aside>
+		  <section>
+		    <input type="checkbox" id="myInput">
+		    <label for="myInput">
+		      <span class="bar top"></span>
+		      <span class="bar middle"></span>
+		      <span class="bar bottom"></span>
+		    </label>
+
+		    <div class="content">
+			      <div>
+					<h1>Make-A-Wish Notre Dame</h1>
+					<!--
+					<ul>
+						<li><a href="home.html">Home</a></li>
+						<li><a href="wwd.html">What We Do</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+					-->
+				</div>
+				<h2>Making a Difference with Make-A-Wish</h2>		
+				<div>
+					<img src="images/hope-parade.jpeg" class="rightimg">
+					<img class="leftimg" src="images/sway.jpeg">
+					<div class="betweenstuff">
+					<h3>Interested in Donating?</h3>
+					<p>We'd love to have your support so we can make the wishes of more children come true!</p>
+					<a href="https://app.mobilecause.com/public/peer_fundraisers/386512/peer_fundraiser_donations/new" target="_blank">Donate Here!</a>
+					</div>
+				</div>
+				<p class="belowpics">The Make-A-Wish mission is to "grant the wishes of children with life-threatening medical conditions to enrich the human experience with hope, strength and joy. ” At the Make-A-Wish Club of Notre Dame, we seek to fundraise and do everything we can to help grant the wishes of these children!</p>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/hZAqMsdkoIw" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+				<img class="logobottom" src="images/make-a-wish-logo.jpeg">		    
+		    </div>
+		  </section>
+		</main>
+
+
+		
+	</body>
+</html>
